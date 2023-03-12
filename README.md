@@ -9,12 +9,8 @@ This React project demonstrates how to use the Redux Toolkit library to manage s
   - Single slice per store: creates a single Redux slice to hold all application state.
   - Multi slice per store: creates multiple Redux slices to hold different parts of the application state, and combines them into a single root reducer.
 - Uses `createSlice` function to define reducers, actions, and selectors for Redux slices.
-- Uses `createAsyncThunk` function to handle asynchronous actions.
 - Uses `configureStore` function to configure the Redux store.
 - Uses `useSelector` hook to access state from components.
-- Uses middleware to handle asynchronous actions.
-- Provides examples of common Redux patterns, such as handling loading and error states, and using memoized selectors.
-- Integrates with Redux DevTools extension for debugging Redux state changes.
 
 ## Installation
 
